@@ -1,0 +1,54 @@
+1)import React, { useContext, useCallback } from 'react'
+-> TrackCreateStack
+2)const [error] = useLocation(isFocused || state.recording,callback)
+-> TrackCreateStack
+3)
+   <Polyline
+            lineDashPattern={[0]}
+                coordinates={locations.map((point) => {
+                    return { latitude: point.coords.latitude, longitude: point.coords.longitude }
+                })}
+
+            />
+-> Map.js
+4)
+  {!recording && locations.length
+                ? <Button
+                    title='Save Recording'
+                />
+-> TrackForm
+5)TrackContext.js
+const fetchTracks=(dispatch)=>()=>{}
+const createTrack=(dispatch)=>async()=>{}
+6)useSaveTrack.js
+7)    const [saveTrack] = useSaveTrack()
+-> TrackForm
+8)trackerApi
+instance.interceptors.request.use()
+9)TrackContext.js
+finish -> createTrack=(dispatch)=>async()=>{}
+10)const saveTrack=async()=>{
+-> useSaveTrack
+11)const reset = (dispatch) => () => {
+Location Context
+12)import {navigate} from '../navigationRef'
+-> useSaveTrack   
+13)const fetchTracks = (dispatch) => async () => {
+-> TrackContext
+14)import { NavigationEvents } from 'react-navigation'
+-> TrackListScreen
+15)TrackDetailScreen
+16)App.js
+17)TrackCreateScreen
+add icon navigationOption
+18)
+const trackListFlow = createStackNavigator({
+  TrackList: TrackListScreen,
+  TrackDetail: TrackDetailScreen
+})
+
+trackListFlow.navigationOptions = {
+  title: 'Track',
+  tabBarIcon: <FontAwesome name="th-list" size={24} color="black" />
+}
+-> App.js

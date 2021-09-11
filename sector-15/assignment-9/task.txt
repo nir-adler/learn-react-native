@@ -1,0 +1,22 @@
+1)signout user
+2)Map.js
+import MapView from 'react-native-maps'
+*
+ return <MapView
+        initialRegion={{
+*
+import MapView,{Polyline} from 'react-native-maps'
+*
+3)TrackCreateScreen
+4)import { requestForegroundPermissionsAsync } from 'expo-location'
+5)const startWatching = async () => { ->  useEffect
+6)_mockLocation.js
+7)const location = await watchPositionAsync({
+8)LocationContext.js
+9)const { addLocation } = useContext(LocationContext) -> TrackCreateScreen
+10)case 'add_current_location':
+            return {...state,currentLocation:action.payload}
+            -> LOcationontext
+11)const { state } = useContext(LocationContext) -> Map.js
+12)return <ActivityIndicator size="large" style={{ marginTop: 200 }} /> -> Map.js
+13)

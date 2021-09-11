@@ -1,0 +1,7 @@
+1)jwt add token to singup res.send
+2)requireAuth middleware jwt + req.user=user jwt.verify(...,async callback)
+3)per 'save'  bcrypt.genSalt(10, (err, salt) => {
+     bcrypt.hash(user.password, salt, (err, hash)
+4)userSchema.methods.comparePassword 
+5)router.post('/signin', (req, res) => {
+6)

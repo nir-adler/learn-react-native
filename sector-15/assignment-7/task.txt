@@ -1,0 +1,10 @@
+1) <Text>account screen</Text>
+import { SafeAreaView } from 'react-navigation'
+const signout=(dispatch)=>async()=>
+2)await AsyncStorage.removeItem('token')
+3)Map.js 
+import MapView from 'react-native-maps'
+import MapView, { Polyline, MapViewDirections } from 'react-native-maps'
+6)createTrackScreen
+add error if not granted location permissions
+7)

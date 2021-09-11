@@ -1,0 +1,10 @@
+1)signout user
+2)Map.js
+import MapView from 'react-native-maps'
+*
+ return <MapView
+        initialRegion={{
+*
+import MapView,{Polyline} from 'react-native-maps'
+*
+3)TrackCreateScreen

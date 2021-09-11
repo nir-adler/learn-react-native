@@ -1,0 +1,17 @@
+1) signup -> {errorMessage:'',isSignedIn:false}) 
+2)await AsyncStorage.setItem('token',response.data.token)
+3)const signup = (dispatch) => async ({ email, password }) => {
+4)src/navigationRef.js
+<App ref={(navigator)=>{setNavigator(navigator)}} />
+import { NavigationActions } from 'react-navigation'
+5)
+ dispatch({
+            type: 'signup',
+            payload: response.data.token
+        })
+        navigate('TrackList')
+6)onPress={() => navigation.navigate('Signin')}
+7)AuthForm.js NavLink.js
+const AuthForm = ({headerText,errorMessage,onSubmit,submitBottonText}) => {
+8)import {withNavigation} from 'react-navigation'
+

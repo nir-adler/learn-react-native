@@ -1,0 +1,11 @@
+1)SignupScreen.navigationOptions = () => {
+  return {
+    headerShown: false,
+  };
+};
+2)SignupScreen.navigationOptions=()=>{
+3)const [email, setEmail] = useState('')
+const [password, setPassword] = useState('')
+4)AuthProvider.js createDataContext.js
+5)const App = createAppContainer(switchNavigator)
+6)

@@ -1,0 +1,6 @@
+1)nodemon express mongoose bcrypt jsonwebtoken
+track-server folder
+2)https://cloud.mongodb.com/
+3)route folder authRoutes
+4)models folder user.js
+5)create singup route

@@ -1,0 +1,6 @@
+1)json-server, ngrok
+2)api folder (axios)
+3)getBlogPosts 
+4)addBlogPost
+5)delete bolg post
+6)edit blog post

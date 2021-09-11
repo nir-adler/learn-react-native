@@ -1,0 +1,6 @@
+1)signin -> signup
+2)track list -> track detail
+3)https://www.npmjs.com/package/react-native-elements
+4)import {Text,Input,Button} from 'react-native-elements'
+5)spacer.js
+6)SignupScreen.json

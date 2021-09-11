@@ -1,0 +1,37 @@
+1)import MapView, { Polyline,Circle } from 'react-native-maps'
+-> Map.js
+2) 
+<Circle
+                center={currentLocation.coords}
+                radius={120}
+                strokeColor='rgba(158,158,255,1.0)'
+                fillColor='rgba(158,158,255,0.3)'
+            />
+->Map.js
+3)useLocation.js
+4)import { SafeAreaView, withNavigationFocus } from 'react-navigation'
+-> TrackCreateScreen
+5)const TrackCreateScreen = ({ isFocused }) => {
+        -> TrackCreateScreen
+6)watchPositionAsync({
+its backgourd process
+7)const subscriber = await watchPositionAsync({
+-> useLocation.js
+8)
+useEffect(() => {
+        startWatching()
+    }, [shouldTrack])  
+-> useLocation.js
+9)subscriber.remove()
+-> useLocation.js
+10)TrackForm.js
+11)const startRecording = (dispatch) => () => {
+LocationContext.js
+12)const changeName = (dispatch) => (name) => {
+13)const stopRecording = (dispatch) => () => {
+14)
+const [error] = useLocation(isFocused, (location) => {
+        addLocation(location, state.recording)
+    })
+-> TrackCreateScreen
+15)TrackForm changes

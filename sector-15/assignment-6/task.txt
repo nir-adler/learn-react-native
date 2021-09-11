@@ -1,0 +1,9 @@
+1)const signin = (dispatch) => async ({ email, password }) =
+2)const clearErrorMessage = (dispatch) => () => {
+    dispatch({ type: 'clear_error_message' })
+}
+3)import {NavigationEvents} from 'react-navigation'
+4)const tryLocalSignin = (dispatch) => async () => {
+5)useEffect(()=>{
+6)ResolveAuthScreen
+7)
